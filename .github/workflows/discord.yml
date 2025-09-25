@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: discord
-      uses: sebastianpopp/discord-actions@releases/v2
+      uses: sebastianpopp/discord-action@releases/v2
       with: 
         webhook: ${{ secrets.DISCORD_WEBHOOK }}
         message: Emilia has tested the connetction. 
